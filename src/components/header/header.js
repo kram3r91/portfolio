@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import HeaderNav from './nav';
 import HeaderSocials from './socials';
+import HeaderWritten from './written';
 export default class Header extends Component {
   render() {
     return (
@@ -9,7 +10,9 @@ export default class Header extends Component {
           <HeaderNav />
           <div class="row banner">
             <div class="banner-text">
-              <h1 class="responsive-headline">I'm Claudiu Todiras.</h1>
+              <h1 class="responsive-headline">
+                <HeaderWritten />
+              </h1>
               <hr />
               <HeaderSocials />
             </div>
