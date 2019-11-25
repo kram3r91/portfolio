@@ -5,7 +5,7 @@ export default class Header extends Component {
     return (
       <React.Fragment>
         <div className="HomeWritten text-center">
-          <Typing speed={180}>
+          <Typing speed={100}>
             <h1>Hi!</h1>
             <Typing.Delay ms={1500} />
             <h1>I am Claudiu Todiras</h1>
