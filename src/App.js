@@ -17,7 +17,7 @@ class App extends Component {
             params={{
         	    "particles": {
         	        "number": {
-        	            "value": 200
+        	            "value": 50
         	        },
         	        "size": {
         	            "value": 3
