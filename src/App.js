@@ -1,16 +1,37 @@
 import React, { Component } from 'react';
-import Header from './components/header/header';
+import Particles from 'react-particles-js';
+
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap.js';
+
+import './css/general.css';
+
+import HomePage from './components/home/home';
+
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
-        {/* <About />
-        <Resume />
-        <Portfolio />
-        <Testimonials />
-        <ContactUs />
-        <Footer /> */}
+        <HomePage />
+        <Particles className="particles"
+            params={{
+        	    "particles": {
+        	        "number": {
+        	            "value": 200
+        	        },
+        	        "size": {
+        	            "value": 3
+        	        }
+        	    },
+        	    "interactivity": {
+        	        "events": {
+        	            "onhover": {
+        	                "enable": true,
+        	                "mode": "repulse"
+        	            }
+        	        }
+        	    }
+        	}} />
       </div>
     );
   }
