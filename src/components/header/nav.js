@@ -13,16 +13,16 @@ export default class Header extends Component {
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="/">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">about</a>
+                <a class="nav-link" href="/about">about</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">portfolio</a>
+                <a class="nav-link" href="/portfolio">portfolio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">contact</a>
+                <a class="nav-link" href="/contact">contact</a>
               </li>
             </ul>
           </div>
