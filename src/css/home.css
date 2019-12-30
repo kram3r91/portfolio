@@ -4,3 +4,21 @@
   transform: translateY(-50%);
   width: 100%;
 }
+
+.HomeWritten .socials {
+  margin: 2rem 0;
+}
+.HomeWritten .socials a {
+  color: #fff;
+  margin: 0.8rem;
+  transition: all 0.25s ease-out;
+}
+.HomeWritten .socials svg {
+  transition: all 0.25s ease-out;
+}
+.HomeWritten .socials a:hover {
+  color: #209DD7;
+}
+.HomeWritten .socials a:hover svg {
+  transform: scale(1.2);
+}
