@@ -2,7 +2,6 @@ import React from "react";
 import Particles from 'react-particles-js';
 
 import HomeWritten from './home/written';
-import HomeSocials from './home/socials';
 import '../css/home.css';
 
 const Home = () => {

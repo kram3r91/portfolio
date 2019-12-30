@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import Typing from 'react-typing-animation';
+
+import HomeSocials from './socials';
+
 export default class Header extends Component {
   render() {
     return (
@@ -12,6 +15,7 @@ export default class Header extends Component {
             <Typing.Delay ms={1500} />
             <h1>Frontend web developer.</h1>
           </Typing>
+          <HomeSocials />
         </div>
       </React.Fragment>
     );
