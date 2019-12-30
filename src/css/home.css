@@ -13,12 +13,17 @@
   margin: 0.8rem;
   transition: all 0.25s ease-out;
 }
-.HomeWritten .socials svg {
+.HomeWritten .socials img {
+  transform: translateY(-5px);
+}
+/*.HomeWritten .socials svg,
+.HomeWritten .socials img, {
   transition: all 0.25s ease-out;
 }
 .HomeWritten .socials a:hover {
   color: #209DD7;
 }
-.HomeWritten .socials a:hover svg {
+.HomeWritten .socials a:hover svg,
+.HomeWritten .socials a:hover img {
   transform: scale(1.2);
-}
+}*/
