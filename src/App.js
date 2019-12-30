@@ -5,11 +5,11 @@ import 'bootstrap/dist/js/bootstrap.js';
 
 import './css/general.css';
 
-import Home from "./components/Home";
-import About from "./components/About";
-import Portfolio from "./components/Portfolio";
-import Contact from "./components/Contact";
-import Error from "./components/Error";
+import Home from "./pages/Index";
+import About from "./pages/About";
+import Portfolio from "./pages/Portfolio";
+import Contact from "./pages/Contact";
+import Error from "./pages/Error";
 
 import Navigation from "./components/header/nav";
 

@@ -1,7 +1,7 @@
 import React from "react";
 import Particles from 'react-particles-js';
 
-import HomeWritten from './home/written';
+import HomeWritten from '../components/home/written';
 import '../css/home.css';
 
 const Home = () => {
